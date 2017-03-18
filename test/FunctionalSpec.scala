@@ -49,7 +49,7 @@ class FunctionalSpec extends PlaySpec with OneAppPerSuite with ScalaFutures {
 
       status(badDateFormat) must equal(BAD_REQUEST)
       contentAsString(badDateFormat) must include("""<option value="1" selected="selected">Apple Inc.</option>""")
-      contentAsString(badDateFormat) must include("""<input type="date" id="introduced" name="introduced" value="badbadbad" """)
+      contentAsString(badDateFormat) must include("""<input type="text" id="introduced" name="introduced" value="badbadbad" """)
       contentAsString(badDateFormat) must include("""<input type="text" id="name" name="name" value="FooBar" """)
 
 
