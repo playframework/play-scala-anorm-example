@@ -11,7 +11,7 @@ libraryDependencies += jdbc
 libraryDependencies += evolutions
 
 libraryDependencies += "com.h2database" % "h2" % "1.4.192"
-libraryDependencies += "com.typesafe.play" %% "anorm" % "2.6.0-M1"
-libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "2.0.0-M2" % Test
+libraryDependencies += "com.typesafe.play" %% "anorm" % "3.0.0-M1"
+libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.0.0-M2" % Test
 
 libraryDependencies += "org.fluentlenium" % "fluentlenium-core" % "3.1.1" % Test
