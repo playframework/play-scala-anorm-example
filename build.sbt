@@ -12,8 +12,8 @@ libraryDependencies += evolutions
 
 libraryDependencies += "com.h2database" % "h2" % "1.4.192"
 
-// 2.6.0-M1 is not final yet,
-libraryDependencies += "com.typesafe.play" %% "anorm" % "2.5.0"
+// 2.6.0-M1 is not final yet, and 2.5.x does not run on scala 2.12
+libraryDependencies += "com.typesafe.play" %% "anorm" % "2.5.3"
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.0.0-M2" % Test
 
 libraryDependencies += "org.fluentlenium" % "fluentlenium-core" % "3.1.1" % Test
