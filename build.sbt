@@ -2,7 +2,7 @@ name := "play-anorm"
 
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.11.11"
 
 resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 
