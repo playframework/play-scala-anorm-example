@@ -1,4 +1,4 @@
-name := "play-anorm"
+name := "play-scala-anorm-example"
 
 version := "0.0.1-SNAPSHOT"
 
