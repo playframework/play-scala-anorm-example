@@ -15,9 +15,6 @@
     </encoder>
   </appender>
 
-  <logger name="play" level="INFO" />
-  <logger name="application" level="DEBUG" />
-
   <!-- Off these ones as they are annoying, and anyway we manage configuration ourself -->
   <logger name="com.avaje.ebean.config.PropertyMapLoader" level="OFF" />
   <logger name="com.avaje.ebeaninternal.server.core.XmlConfigLoader" level="OFF" />
@@ -26,7 +23,7 @@
   <logger name="com.gargoylesoftware.htmlunit" level="ERROR" />
   <logger name="org.apache.http.client.protocol" level="ERROR" />
 
-  <root level="INFO">
+  <root level="TRACE">
     <appender-ref ref="STDOUT" />
     <appender-ref ref="FILE" />
   </root>
