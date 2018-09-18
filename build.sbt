@@ -3,6 +3,7 @@ name := "play-scala-anorm-example"
 version := "2.6.0-SNAPSHOT"
 
 scalaVersion := "2.12.6"
+crossScalaVersions := Seq("2.12.6", "2.11.12")
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
